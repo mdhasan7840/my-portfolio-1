@@ -1,0 +1,455 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    line-height:24px;
+    
+
+}
+h1, h2, h3, h4, h5,h6{
+    font-family: 'Noto Sans Mono', monospace;
+}
+a, a:hover{
+    text-decoration:none;
+}
+/* ====first section start from here==== */
+.sec-first{
+    width:100%;
+    display:flex;
+    background:url('../images/header-bg.png') center no-repeat;
+}
+.sec-first .first-lft{
+    width:50%;
+    padding:40px 0px 40px 150px;
+    
+}
+.first-lft h3{
+    font-size:30px;
+    line-height:30px;
+    color:#222;
+    margin-top:100px;
+}
+.first-lft  h1{
+    font-size:50px;
+    line-height:50px;
+    color:#dd04a7;
+    margin:10px 0px;
+}
+.first-lft  p{
+    color:#696969;
+    padding-right:50px;
+    margin-bottom:30px;
+}
+.first-lft  a{
+    border:1px solid #dd047a;
+    background:#dd047a;
+    padding:10px 30px;
+    color:#fff;
+    font-weight:500;
+    border-radius:5px;
+    
+}
+
+
+.sec-first .first-rht{
+    width:50%;
+}
+.sec-first img{
+    width:400px;
+    height:400px;
+    margin-top:50px;
+}
+/* ====first section ends from here==== */
+
+/* ====second section start from here==== */
+.sec-second{
+    width:100%;
+    display:flex;
+    margin:100px 0px;
+    background:url("../images/biography-bg.png") center no-repeat;
+    
+    
+}
+.sec-second .second-lft{
+    width:50%;
+    
+    
+}
+.second-lft img{
+    width:400px;
+    height:400px;
+    margin-top:50px;
+    margin-left:100px;
+    
+}
+.sec-second  .second-rht{
+    width:50%;
+}
+.second-rht h3{
+    font-size:30px;
+    line-height:30px;
+    color:#222;
+    margin-top:100px;
+    margin-bottom:10px;
+}
+.second-rht p{
+    color:#696969;
+    padding-right:50px;
+    margin:10px 0px 20px;
+}
+.second-rht a{
+    border:1px solid #dd047a;
+    background:#dd047a;
+    padding:10px 30px;
+    color:#fff;
+    font-weight:500;
+    border-radius:5px;
+}
+
+/* ====second section ends from here==== */
+/* ====third section start from here==== */
+.sec-third{
+    width:100%;
+    margin:100px auto 50px;
+    text-align:center;
+    background:url("../images/latest-work-bg.png") center no-repeat;
+    background-size:cover;
+}.sec-third h2{
+    font-size:30px;
+    line-height:30px;
+    color:#222;
+    margin-top:100px;
+    margin-bottom:10px;
+}
+.sec-third ul{
+    list-style:none;
+    display:flex;
+    margin:40px auto;
+    justify-content: center;
+    align-items: center;
+
+}
+.sec-third ul li{
+    margin:40px;
+    box-shadow:10px 10px 30px #c1c1c1;
+}
+.sec-third ul li  img{
+    width:250px;
+    height:350px;
+    object-fit:cover;
+    margin-right:10px;
+}
+
+/* ====third section ends from here==== */
+
+/* ===footer section start from here==== */
+.footer{
+    width:100%;
+    text-align:center;
+    margin-top:100px;
+    background:url("../images/footer-bg.png") center  no-repeat;
+
+}
+.footer .testimonial{
+    margin:50px 0px;
+}
+.footer .testimonial h2{
+    font-size:30px;
+    line-height:30px;
+    color:#222;
+    margin:10px 0px 40px;
+}
+.footer .testimonial h6{
+    font-size:16;
+    color:#222;
+}
+.footer .testimonial p{
+    color:#696969;
+}
+.footer .testimonial .testimonial-txt{
+    margin:30px 0px 10px;
+}
+.footer .contact{
+    width:500px;
+    margin:10px auto;
+    background:#dd047a;
+    padding:30px 50px;
+    border-radius:5px;
+}
+.footer .contact p{
+    color:#fff;
+}
+.footer .contact h3{
+    font-size:18px;
+    color:#fff;
+    letter-spacing:1px;
+    font-weight:500px;
+}
+.footer .footer-para{
+    margin-top:50px;
+    color:#696969;
+}
+/* ===footer section ends from here==== */
+
+
+/* =======Responsive section here======== */
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /* CSS */
+    /* =====first section==== */
+    body{
+        padding:10px;
+    }
+    .sec-first{
+        width:100%;
+        display:block;
+    }
+    .sec-first .first-lft{
+        width:100%;
+        padding:0px;
+        display:block;
+    }
+    .first-lft h3{
+        font-size:30px;
+    }
+    .first-lft h1{
+        font-size:35px;
+        line-height:35px;
+    }
+    .first-lft p{
+        padding-right:0px;
+    }
+    
+    .sec-first img{
+        width:250px;
+        height:250px;
+
+    }
+    .sec-first .first-rht{
+        width:100%;
+        text-align:center;
+    }
+    /* ====second section==== */
+    .sec-second{
+        width:100%;
+        display:block;
+       
+    }
+    .sec-second .second-lft{
+        width:100%;
+        text-align:center;
+    }
+    .second-lft img{
+        width:250px;
+        height:250px;
+        margin:10px 0px 30px;
+    }
+    .sec-second .second-rht{
+        width:100%;
+        
+    }
+    .second-rht h3{
+        font-size:30px;
+    }
+    .second-rht p{
+        padding-right:0px;
+        text-align:justify;
+    }
+    /* =====section third====== */
+    .sec-third{
+        width:100%;
+
+    }
+    .sec-third h2{
+        font-size:30px;
+    }
+    .sec-third ul li img{
+        width:200px;
+        height:300px;
+    }
+    .sec-third ul{
+        display:block;
+    }
+    /* ====footer section start from here=== */
+    .footer{
+        width:100%;
+        overflow:hidden;
+    }
+    .footer .testimonial h2{
+        font-size:24px;
+    }
+    .footer .contact{
+        width:200px;
+        margin:20px auto;
+        justify-content:center;
+        align-items:center;
+        padding:20px 40px;
+    }
+    .footer .contact h3{
+        font-size:15px;
+        font-weight:400;
+    }
+
+
+
+
+
+    /*code ends here  */
+  }
+
+  /* ================= */
+
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS */
+    /* ====first section==== */
+    body{
+        padding:20px;
+    }
+    .sec-first{
+        width:100%;
+        display:block;
+       
+    }
+    .sec-first .first-lft{
+        width:100%;
+        padding:0px;
+    }
+    .first-lft h3{
+        font-size:30px;
+    }
+    .first-lft h1{
+        font-size:40px;
+    }
+    /* ====second section==== */
+    .sec-first .first-rht{
+        width:100%;
+        text-align:center;
+    }
+    .sec-first img{
+        width:300px;
+        height:300px;
+
+    }
+    .sec-second{
+        width:100%;
+        display:block;
+        margin:40px 0px;
+
+    }
+    .sec-second .second-lft{
+        width:100%;
+        text-align:center;
+
+    }
+    .second-lft img{
+        width:300px;
+        height:300px;
+    }
+    .sec-second .second-rht{
+        width:100%;
+
+    }
+    .second-rht p{
+        padding-right:10px;
+    }
+    /* ====section third==== */
+    .sec-third{
+        width:100%;
+    }
+    .sec-third ul{
+        display:block;
+        margin-top:40px;
+    }
+    /* ====footer section==== */
+    .footer{
+        width:100%;
+
+    }
+    .footer .contact{
+        width:350px;
+        margin:30px auto;
+
+    }
+
+    /* ====code ends here */
+  }
+  /* =================== */
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    /* CSS */
+    body{
+        padding:20px;
+    }
+    .sec-first .first-lft{
+        width:50%;
+        padding:0px;
+    }
+    .sec-first .first-rht{
+        width:50%;
+        text-align:left;
+    }
+    .sec-first img{
+        width:300px;
+        height:300px;
+    }
+    /* ===section second=== */
+    .sec-second{
+        width:100%;
+
+    }
+    .sec-second .second-lft{
+        width:50%;
+        padding:0px;
+        text-align:left;
+    }
+    .second-lft img{
+        width:300px;
+        height:300px;
+        margin:10px;
+    }
+    .sec-second .second-rht{
+        width:50%;
+        margin-left:10px;
+    }
+    .second-rht p{
+        padding-right:10px;
+    }
+    /* ====section third====*/
+    .sec-third{
+        width:100%;
+    }
+    .sec-third ul li{
+        width:33%;
+        margin:20px;
+    }
+
+    .sec-third ul li img{
+        width:100%;
+        height:300px;
+        object-fit:cover;
+    }
+  
+
+    
+
+    /* ====code start from here==== */
+  }
